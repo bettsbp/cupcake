@@ -14,18 +14,18 @@ body {
 .ree:hover{
   font-size: 100px;
   transition: 3s;
+  background-color: lime;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 100%;
 }
-img {
+.left {
   float: left;
-  height: 45%;
-  width: 45%;
-  margin: 5%;
 }
 
-figcaption {
-  background-color: red;
+.right {
+  float: right;
 }
-
-figure {
-margin: 5%;
-}
+ figure img {
+   width: 500px;
+   height: 500px;
+ }
